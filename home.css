@@ -4,10 +4,20 @@
     box-sizing: border-box;
 }
 
+.logo-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo {
+    height: 10rem;
+}
+
 body {
     font-family: 'Overpass', sans-serif;
     height: 100vh;
-    background-image: linear-gradient(to right bottom, rgba(226, 39, 39, 0.616), rgba(255, 217, 0, 0.616)), url(./background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(128, 0, 128, 0.733)), url(./background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,7 +116,7 @@ button {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -60%);
-    background-color: rgb(153, 0, 255);
+    background-color: gold;
     font-size: large;
     color: white;
     outline: none;
