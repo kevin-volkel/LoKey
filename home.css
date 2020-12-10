@@ -1,7 +1,20 @@
-*,*::after,*::before {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 6rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-transform: uppercase;
 }
 
 .logo-box {
@@ -11,7 +24,7 @@
 }
 
 .logo {
-    height: 10rem;
+    height: 13rem;
 }
 
 body {
@@ -118,6 +131,6 @@ button {
     transform: translate(-50%, -60%);
     background-color: gold;
     font-size: large;
-    color: white;
+    color: black;
     outline: none;
 }
