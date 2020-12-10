@@ -116,8 +116,7 @@ button {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -60%);
-    background-color: gold;
+    background-image: url(media/download.jpg);
     font-size: large;
-    color: white;
-    outline: none;
+    color: black;
 }
