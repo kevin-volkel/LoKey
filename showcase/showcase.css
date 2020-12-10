@@ -1,15 +1,23 @@
-*,
-*::after,
-*::before {
+*,*::after,*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.logo-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo {
+    height: 10rem;
+}
+
 body {
     font-family: 'Overpass', sans-serif;
     height: 100vh;
-    background-image: linear-gradient(to right bottom, rgba(226, 39, 39, 0.616), rgba(255, 217, 0, 0.616)), url(./background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(128, 0, 128, 0.733)), url(../background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -66,7 +74,8 @@ body {
     padding: 0.25rem 1rem;
     text-transform: uppercase;
     letter-spacing: 3px;
-    transition: all 1s ease;
+    transition: transform 1s ease;
+    transition: background 0.5s;
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -75,7 +84,6 @@ body {
 
 .nav-link:hover {
     background: rgba(218, 190, 32, 0.795);
-    color: rgb(218, 33, 33);
 }
 
 .x::before,
@@ -108,7 +116,8 @@ button {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -60%);
-    background-image: url(media/download.jpg);
+    background-color: gold;
     font-size: large;
-    color: black;
+    color: white;
+    outline: none;
 }
