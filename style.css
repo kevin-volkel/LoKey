@@ -108,7 +108,7 @@ button {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -60%);
-    background-color: rgb(153, 0, 255);
+    background-image: url(media/download.jpg);
     font-size: large;
-    color: white;
+    color: black;
 }
