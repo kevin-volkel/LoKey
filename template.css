@@ -27,6 +27,18 @@ body {
     cursor: pointer;
 }
 
+.nav-logo-box{
+    position: fixed;
+    z-index: 2;
+    margin-left: 31px;
+    height: 54px;
+    top: 0px;
+}
+
+.nav-logo{
+    height: 54px;
+}
+
 .nav-button .bar {
     background-color: white;
     width: 100%;

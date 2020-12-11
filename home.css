@@ -6,12 +6,13 @@
     box-sizing: border-box;
 }
 
-div.top-bar {
+
+/* div.top-bar {
     width: 80%;
     height: 54px;
     background-color: black;
     z-index: 2;
-}
+} */
 
 h1 {
     margin-top: 16rem;
@@ -143,4 +144,22 @@ button {
     color: black;
     outline: none;
     margin-top: 30px;
+}
+
+.nav-logo-box {
+    position: fixed;
+    z-index: 2;
+    margin-left: 31px;
+    height: 54px;
+    top: 0px;
+}
+
+.nav-logo {
+    height: 54px;
+}
+
+.nav-logo-text {
+    position: fixed;
+    top: 0px;
+    height: 54px;
 }
