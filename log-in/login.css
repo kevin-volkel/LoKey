@@ -211,7 +211,7 @@ h3 {
 }
 
 .side-card-front {
-    background-image: url(./Jimmy-Fallon.jpg);
+    background-image: url(../media/Jimmy-Fallon.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -248,7 +248,7 @@ h3 {
 }
 
 .side-card-front-2 {
-    background-image:  url(./hiring.jpg);
+    background-image:  url(../media/hiring.jpg);
     background-position: center;
     background-size: cover;
 }
