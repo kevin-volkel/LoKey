@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: black;
+}
+.nav-logo-box{
+    position: fixed;
+    z-index: 0;
+    padding-left: 31px;
+    height: 54px;
+    top: 0px;
+}
+
+.nav-logo{
+    height: 54px;
+}
