@@ -5,18 +5,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #330055;
-    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.726), rgba(128, 0, 128, 0.699)), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.72'%3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%2337005d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%233c0064' cx='50' cy='100' r='50'/%3E%3Cg fill='%2340006c' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23450074' cx='50' cy='200' r='50'/%3E%3Cg fill='%2349007c' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%234e0084' cx='50' cy='300' r='50'/%3E%3Cg fill='%2353008d' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23570095' cx='50' cy='400' r='50'/%3E%3Cg fill='%235c009d' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%236100a6' cx='50' cy='500' r='50'/%3E%3Cg fill='%236600ae' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%236b00b7' cx='50' cy='600' r='50'/%3E%3Cg fill='%237000c0' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%237500c9' cx='50' cy='700' r='50'/%3E%3Cg fill='%237a00d2' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%237f00db' cx='50' cy='800' r='50'/%3E%3Cg fill='%238400e4' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%238900ed' cx='50' cy='900' r='50'/%3E%3Cg fill='%238e00f6' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%239300ff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     font-family: 'Overpass', sans-serif;
+    height: 100vh;
+    background-color: #330055;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(70, 0, 128, 0.733)), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.72'%3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%2337005d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%233c0064' cx='50' cy='100' r='50'/%3E%3Cg fill='%2340006c' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23450074' cx='50' cy='200' r='50'/%3E%3Cg fill='%2349007c' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%234e0084' cx='50' cy='300' r='50'/%3E%3Cg fill='%2353008d' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23570095' cx='50' cy='400' r='50'/%3E%3Cg fill='%235c009d' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%236100a6' cx='50' cy='500' r='50'/%3E%3Cg fill='%236600ae' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%236b00b7' cx='50' cy='600' r='50'/%3E%3Cg fill='%237000c0' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%237500c9' cx='50' cy='700' r='50'/%3E%3Cg fill='%237a00d2' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%237f00db' cx='50' cy='800' r='50'/%3E%3Cg fill='%238400e4' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%238900ed' cx='50' cy='900' r='50'/%3E%3Cg fill='%238e00f6' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%239300ff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.logo-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo {
+    height: 10rem;
 }
 
 .nav-button {
@@ -42,8 +48,7 @@ body {
 .navbar {
     position: fixed;
     top: 0;
-    left: 0;
-    height: 100%;
+    bottom: 0;
     background-color: rgba(155, 33, 192, 0.801);
     z-index: 2;
     width: 20%;
@@ -63,56 +68,6 @@ body {
     flex-direction: column;
     height: 100%;
     margin-top: 100px;
-}
-
-.welcome{
-    width: 100%;
-    text-align: center;
-    margin-top:5rem;
-    text-transform: capitalize;
-    font-size: 26px;
-}
-
-
-.logo {
-    margin-top: 13px;
-    height: 1rem;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-.login-section input{
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-    border-bottom-style: groove;
-    outline: none;
-    margin-bottom: 1.5rem;
-    color: black;
-}
-input{
-    background-color: transparent;
-}
-input:active{
-    transition: all 1s ease;
-    padding: 5px;
-}
-.login-section{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 6.5rem;
-    flex-direction: column;
-}
-
-button{
-    width: 120px;
-    height: 30px;
-    border-radius: 75px;
-    outline: none;
-    background-image: linear-gradient(to right,rgba(211, 19, 211, 0.74),rgba(163, 39, 163, 0.774));
 }
 
 .nav-link {
@@ -155,113 +110,32 @@ button{
     transform: rotate(-45deg);
 }
 
-
-.h3-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 75px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    background-image: url(../media/download.jpg);
+    font-size: large;
+    color: black;
 }
 
-h3 {
-    font-size: 3rem;
-    color: rgb(0, 0, 0);
+
+/*~~~~~~~~~~~~~default~~~~~~~~~~~~~~~*/
+
+
+/* p{
     text-align: center;
-    text-transform: uppercase;
-
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 330px);
-    grid-template-rows: 10px 500px;
-    grid-gap: 100px;
-}
-.celeb{
-    grid-column: 1;
-    grid-row: 1;
-    justify-self: center;
-    align-self: center;
-    color: white;
-}
-.hire{
-    grid-column:2 ;
-    grid-row:1 ;
-    justify-self: center;
-    align-self: center;
-    color: white;
-
-
-}
-.card {
-    perspective: 150rem;
-    height: 500px;
-    width: 330px;
-}
-
-.side-card {
-    height: 500px;
-    width: 330px;
-    transition: all 1.5s ease;
     position: absolute;
-    top: 0;
-    left: 0;
-    backface-visibility: hidden;
-    border-radius: 10px;
-}
+    top: 50%;
+    left: 39%;
+} */
 
-.side-card-front {
-    background-image: url(./Jimmy-Fallon.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.side-card-back {
-    background-color: khaki;
-    transform: rotateY(180deg);
-}
-
-.card:hover .side-card-front {
-    transform: rotateY(180deg);
-}
-
-.card:hover .side-card-back {
-    transform: rotateY(0deg);
-}
-
-.card-2 {
-    perspective: 150rem;
-    height: 500px;
-    width: 330px;
-    
-}
-
-.side-card-2 {
-    height: 500px;
-    width: 330px;
-    transition: all 1.5s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
-    backface-visibility: hidden;
-    border-radius: 10px;
-}
-
-.side-card-front-2 {
-    background-image:  url(./hiring.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.side-card-back-2 {
-    background-color: khaki;
-    transform: rotateY(180deg);
-}
-
-.card-2:hover .side-card-front-2 {
-    transform: rotateY(180deg);
-}
-
-.card-2:hover .side-card-back-2 {
-    transform: rotateY(0deg);
+.sign-up {
+    width: 80%;
+    height: 80%;
+    background-color: white;
 }
