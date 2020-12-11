@@ -138,7 +138,7 @@ button {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -60%);
-    background-image: url(media/download.jpg);
+    background-image: linear-gradient(to top, rgba(207, 21, 224, 0.712), rgba(247, 216, 40, 0.699));
     font-size: large;
     color: black;
     outline: none;
