@@ -6,7 +6,23 @@
     box-sizing: border-box;
 }
 
+body, html {
+    height: 100%;
+}
 
+.parallax {
+    /* The image used */
+    background-image: url("media/logo7v2.png");
+
+    /* Full height */
+    height: 45%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50vh;
+}
 body{
     background: black;
 }
@@ -21,3 +37,25 @@ body{
 .nav-logo{
     height: 54px;
 }
+header{
+    height: 100vh;
+}
+header.about h1{
+    margin-bottom: 50vh;
+}
+
+content{
+    height: 100vh;
+    background-color: black;
+}
+
+content p{
+    color: royalblue;
+    font-size: 1.5em;
+    line-height: 45px;
+    display: flex;
+    margin-left: 15vh;
+    margin-right: 15vh;
+
+}
+
