@@ -20,7 +20,7 @@ let checkLogin = () => {
 
 let login = () => {
     if(checkLogin()){
-        document.location.href = "../index.html"
+        document.location.href = "../services/services.html"
     }else{
         document.getElementById("password").value = ""
         alert("Incorrect email or password")
@@ -38,3 +38,7 @@ document.getElementById("email").addEventListener("keyup", function(event) {
         login()
     }
 });
+
+let signup = () => {
+    document.location.href = "../register/register.html"
+}
