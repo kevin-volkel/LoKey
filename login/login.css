@@ -291,3 +291,9 @@ h3 {
 #apply{
     margin: 5rem auto;
 }
+
+.login-section a{
+    color: purple;
+    text-decoration: none;
+    padding-top: 3rem;
+}
