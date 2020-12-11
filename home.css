@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-div.top-bar{
+div.top-bar {
     width: 80%;
     height: 54px;
     background-color: black;
@@ -14,7 +14,7 @@ div.top-bar{
 }
 
 h1 {
-    margin-top: 22rem;
+    margin-top: 16rem;
     width: 100%;
     text-align: center;
     color: white;
