@@ -14,36 +14,59 @@ body {
     
 }
 
-.nav-button {
+.nav-button{
     position: fixed;
-    top: 1rem;
+    top: 1.5rem;
     left: 1rem;
     height: 27px;
     width: 31px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 1;
+    z-index: 3;
     cursor: pointer;
+    transition: all .5s ease-in-out;
 }
-
-.nav-logo-box{
-    position: fixed;
-    z-index: 2;
-    margin-left: 31px;
-    height: 54px;
-    top: 0px;
-}
-
-.nav-logo{
-    height: 54px;
-}
-
-.nav-button .bar {
-    background-color: white;
-    width: 100%;
+.nav-button_bar{
+    content: '';
+    position: absolute;
+    width: 31px;
     height: 5px;
+    background-color: white;
     border-radius: 8px;
+    transition: all .5s ease-in-out;
+    z-index: 3;
+
+}
+.nav-button_bar::before,
+.nav-button_bar::after{
+    content: '';
+    position: absolute;
+    width: 31px;
+    height: 5px;
+    background-color: white;
+    border-radius: 8px;
+    transition: all .5s ease-in-out;
+}
+.nav-button_bar::before{
+    transform: translateY(-12px);
+}
+.nav-button_bar::after{
+    transform: translateY(12px);
+}
+
+.nav-button.open .nav-button_bar{
+    transform: translateX(-50px);
+    background:transparent ;
+    box-shadow: none;
+}
+
+.nav-button.open .nav-button_bar::before{
+    transform: rotate(45deg) translate(35px, -35px);
+    background-color: red;
+}
+.nav-button.open .nav-button_bar::after{
+    transform: rotate(-45deg) translate(35px, 35px);
+    background-color: red;
+
 }
 
 .navbar {
@@ -92,29 +115,6 @@ body {
 .nav-link::visited{
     color: black;
 }
-
-.x::before,
-.x::after {
-    content: '';
-    position: fixed;
-    top: 1rem;
-    left: 18vw;
-    width: 5.6px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgb(255, 217, 0);
-    cursor: pointer;
-    display: block;
-}
-
-.x::before {
-    transform: rotate(45deg);
-}
-
-.x::after {
-    transform: rotate(-45deg);
-}
-
 a:visited{
     text-decoration: none;
 }
