@@ -1,15 +1,17 @@
 body{
-    overflow: hidden
+    overflow: hidden;
 }
+
 
 main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: baseline;
 }
 
 .item{
-    margin: 2rem 5rem;
+    margin: 1rem 5rem;
 }
 
 .item img{
@@ -24,16 +26,11 @@ main{
 .greeting{
     color: white;
     font-size: 4rem;
-    text-align: center;
-    margin-bottom: 5rem;
+    text-align: center; 
     margin-top: 3rem;
 }
 
 
 a{
     text-decoration: none;
-}
-
-img.item1{
-    width: 20rem;
 }
