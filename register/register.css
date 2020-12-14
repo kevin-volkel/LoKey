@@ -82,6 +82,7 @@ body {
     justify-content: center;
     text-decoration: none;
     margin-bottom: 10px;
+    color: black;
 }
 
 .nav-link:hover {
