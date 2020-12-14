@@ -1,14 +1,17 @@
 body{
-    overflow: hidden
+    overflow: hidden;
 }
 
+
 main{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    grid-template-rows: repeat(2, 15rem);
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    gap: 2rem;
+    align-items: baseline;
+}
+
+.item{
+    margin: 1rem 5rem;
 }
 
 .item img{
@@ -23,16 +26,11 @@ main{
 .greeting{
     color: white;
     font-size: 4rem;
-    text-align: center;
-    margin-bottom: 5rem;
+    text-align: center; 
     margin-top: 3rem;
 }
 
 
 a{
     text-decoration: none;
-}
-
-img.item1{
-    width: 20rem;
 }

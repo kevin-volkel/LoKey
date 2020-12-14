@@ -7,12 +7,6 @@
 }
 
 
-/* div.top-bar {
-    width: 80%;
-    height: 54px;
-    background-color: black;
-    z-index: 2;
-} */
 
 .logo-box {
     display: flex;
@@ -158,4 +152,31 @@ body {
 }
 a:visited{
     text-decoration: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{
+    width: 12px;
+    
+}
+::-webkit-scrollbar-track{
+    background: darkgrey;
+    box-shadow: inset white 2px 2px 3px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(70, 70, 70);
+}
+::-webkit-scrollbar-thumb:active{
+    background: white;
+    
+}
+
+::-webkit-scrollbar-corner{
+    background: white;
 }
