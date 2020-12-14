@@ -20,20 +20,10 @@
     transform: rotate(-45deg);
 }
 
-button.buy {
-    width: 200px;
-    height: 50px;
-    border-radius: 75px;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -60%);
-    background-image: url(../media/download.jpg);
-    font-size: large;
-    color: black;
-}
-
 /*~~~~~~~~~~~~~default~~~~~~~~~~~~~~~*/
+
+
+
 
 button{
     width: 300px;
@@ -71,17 +61,17 @@ button.gold{
 }
 
 .contan2{
-    height: 50%;
+    height: 30%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     font-family: 'Overpass', sans-serif;
     text-align: center;
 }
 
 .box{
-    width: 1200px;
+    width: 300px;
     height: 300px;
     border-radius: 5px;
     background-image: url(../media/MetalPurlpe.jpg);
@@ -92,4 +82,5 @@ button.gold{
     text-align: center;
     justify-content: center;
     color: rgb(255, 255, 255);
+    font-size: 30px;
 }
