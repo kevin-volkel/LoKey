@@ -152,6 +152,7 @@ body {
     top: 0px;
     height: 54px;
 }
+
 .nav-link::visited{
     color: black;
 }
