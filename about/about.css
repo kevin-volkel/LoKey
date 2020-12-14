@@ -13,35 +13,16 @@ body, html {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.parallax {
-    /* The image used */
-    background-image: url("media/logo7v2.png");
-
-    /* Full height */
-    height: 45%;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 50vh;
-}
-body{
-    background: black;
-}
-.nav-logo-box{
-    position: fixed;
-    z-index: 0;
-    padding-left: 31px;
-    height: 54px;
-    top: 0px;
 }
 
-.nav-logo{
-    height: 54px;
+header.about div{
+    content: url(../media/logo7v3.png);
+    height: 150px;
+    display: flex;
+
 }
+
 header{
     height: 45vh;
     display: flex;
@@ -52,7 +33,6 @@ header{
     background: none;
 }
 header.about h1{
-    margin-bottom: 50vh;
     color: black;
     -webkit-text-stroke: white 1px;
 
@@ -61,6 +41,7 @@ header.about h1{
 content{
     height: 100vh;
     background: black;
+    margin-bottom: 20px;
 }
 
 content p{
@@ -72,6 +53,9 @@ content p{
     display: flex;
     margin-left: 15vh;
     margin-right: 15vh;
+    border-radius: 20px;
+    border: white 1px solid;
+
 
 }
 

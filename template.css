@@ -1,7 +1,30 @@
-*,*::after,*::before {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+/* div.top-bar {
+    width: 80%;
+    height: 54px;
+    background-color: black;
+    z-index: 2;
+} */
+
+.logo-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.logo {
+    height: 8rem;
 }
 
 body {
@@ -11,8 +34,6 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
-    
 }
 
 .nav-button{
@@ -112,6 +133,24 @@ body {
 .nav-link:hover {
     background-image: linear-gradient(to top, rgba(207, 21, 224, 0.712), rgba(255, 217, 0, 0.699));
     color: white;
+}
+
+.nav-logo-box {
+    position: fixed;
+    z-index: 2;
+    margin-left: 31px;
+    height: 54px;
+    top: 0px;
+}
+
+.nav-logo {
+    height: 54px;
+}
+
+.nav-logo-text {
+    position: fixed;
+    top: 0px;
+    height: 54px;
 }
 
 .nav-link::visited{
