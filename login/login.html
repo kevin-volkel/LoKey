@@ -19,26 +19,28 @@
 
 <body>
 
-    <div class="nav-button" id='nav-button' onclick="navButton()">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </div>
+<div class="nav-button" id='nav-button' onclick="navButton()">
+
+    <div class="nav-button_bar" id = 'bars'></div>
+
+</div>
 
 
-    <nav class="navbar" id="navbar">
+     <nav class="navbar" id="navbar">
         <div class="nav-header">
-            <div class='nav-close' id='nav-close' onclick="navClose()">
+            <div class='nav-close ' id='nav-close ' onclick="navClose()">
                 <div class="x" id="x"></div>
             </div>
         </div>
         <ul class="nav-items">
-            <li><a href="../index.html" class='nav-link'>Home</a></li>
-            <li><a href="../about/about.html" class='nav-link'>About</a></li>
-            <li><a href="../services/services.html" class='nav-link'>Services</a></li>
-            <li><a href="../showcase/showcase.html" class='nav-link'>Showcase</a></li>
+            <li><a href="index.html" class='nav-link'>Home</a></li>
+            <li><a href="about/about.html" class='nav-link'>About</a></li>
+            <li><a href="login/login.html" class='nav-link'>Services</a></li>
+            <li><a href="showcase/showcase.html" class='nav-link'>Showcase</a></li>
         </ul>
     </nav>
+
+<div class="flex-container">
     <div class="container">
         <div class="col-1-2">
             <div class="card">
@@ -69,11 +71,15 @@
                 </div>
             </div>
         </div>
+                    <h3 class="celeb">Celebrities</h3> 
 
-        <h3 class="celeb">Celebrities</h3>
-        <h3 class="hire">BodyGuards</h3>
+                    <h3 class="hire">BodyGuards</h3>
+
 
         <div class="card-2">
+
+            <div class="col-1-2">
+
             <div class="side-card-2 side-card-front-2">
 
             </div>
@@ -90,9 +96,9 @@
                     <button id="apply" onclick="signup()">Apply Now</button>
                 </div>
             </div>
-
+            </div>
         </div>
-
+    </div>
 
 
 

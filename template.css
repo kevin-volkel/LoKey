@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     
+    
 }
 
 .nav-button{
@@ -96,22 +97,23 @@ body {
 
 .nav-link {
     display: block;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0.25rem 1rem;
     text-transform: uppercase;
     letter-spacing: 3px;
-    transition: transform 1s ease;
-    transition: background 0.5s;
     display: flex;
-    justify-content: center;
+    color: black;
+    justify-content: flex-start;
     text-decoration: none;
     margin-bottom: 10px;
-    color: black;
+    align-items: center;
 }
 
 .nav-link:hover {
-    background: rgba(218, 190, 32, 0.795);
+    background-image: linear-gradient(to top, rgba(207, 21, 224, 0.712), rgba(255, 217, 0, 0.699));
+    color: white;
 }
+
 .nav-link::visited{
     color: black;
 }
