@@ -297,17 +297,8 @@ h3 {
     margin: 5rem auto;
 }
 
-<<<<<<< HEAD
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-=======
 .login-section a{
     color: purple;
     text-decoration: none;
     padding-top: 3rem;
->>>>>>> aa1676013ed32ab4be5858b259e50055887b3720
 }

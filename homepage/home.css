@@ -41,7 +41,7 @@ h1 {
 body {
     font-family: 'Overpass', sans-serif;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(128, 0, 128, 0.733)), url(./background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(128, 0, 128, 0.733)), url(../background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
