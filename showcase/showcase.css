@@ -7,29 +7,38 @@ html{
 }
 
 body{
-    overflow: hidden;
     background-image: none;
+    overflow: hidden;
 }
 
 
 main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: baseline;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    /* background: rgb(255, 255, 255);
+    border-radius: 10rem; */
+    margin: 0 3rem 3rem 3rem;
+    gap: 1rem;
+    align-items: stretch;
 }
 
 .item{
-    margin: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    border-radius: 10px;
+    align-items: center;
 }
 
 .item img{
-    width: 10rem;   
+    height: 9rem;
+    margin: 0 auto;
 }
 
 .item p.description{
-    color: white;
-    text-align: center;
+    color: black;
 }
 
 .greeting{
@@ -42,4 +51,10 @@ main{
 
 a{
     text-decoration: none;
+}
+
+.empty{
+    height: 1px;
+    padding: 0;
+    margin: 0;
 }
