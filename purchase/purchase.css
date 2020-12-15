@@ -1,0 +1,25 @@
+.contan{
+    height: 50%;
+    width: 100%;
+    /*display: flex;*/
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    background-image: url(../media/MetalPurlpe.jpg);
+    background-size: 600px;
+    padding: 1rem;
+    /*float: left;*/
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
