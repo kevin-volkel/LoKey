@@ -27,9 +27,18 @@ main{
     background: rgba(0, 0, 0, 0.473);
     border-radius: 10px;
     align-items: center;
-    border: black solid 2px;
+    border: 2px solid goldenrod;
+
     /* width: 15rem; */
     /* justify-self: center; */
+}
+
+.item:hover{
+    border: gold 2px solid;
+}
+.item:focus{
+    height: 2em;
+    width: 2em;
 }
 
 .item img{
@@ -43,9 +52,12 @@ main{
 
 .greeting{
     color: white;
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-align: center; 
     margin-top: 3rem;
+    color: wheat;
+    -webkit-text-stroke: black 1px;
+    text-shadow: white -1px 1px 2px;
 }
 
 
