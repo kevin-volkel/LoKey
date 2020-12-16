@@ -26,6 +26,13 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+p{
+    text-align: center;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    margin-top: 1rem;
+}
+
 .logo-box {
     display: flex;
     width: 100%;
@@ -148,19 +155,21 @@ body {
     color: white;
 }
 
+
+.buttonWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 button {
     width: 200px;
     height: 50px;
     border-radius: 75px;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -60%);
     background-image: linear-gradient(to top, rgba(207, 21, 224, 0.712), rgba(247, 216, 40, 0.699));
     font-size: large;
     color: black;
     outline: none;
-    margin-top: 30px;
+    margin: 10rem auto;
 }
 
 .nav-logo-box {
