@@ -24,21 +24,17 @@ main{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background: rgba(0, 0, 0, 0.473);
     border-radius: 10px;
     align-items: center;
     border: 2px solid goldenrod;
-
+    background-color: black;
     /* width: 15rem; */
     /* justify-self: center; */
 }
 
 .item:hover{
     border: gold 2px solid;
-}
-.item:focus{
-    height: 2em;
-    width: 2em;
+    background: rgba(0, 0, 0, 0.473);
 }
 
 .item img{
