@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 body, html {
     height: 100%;
     background-color: #330055;
@@ -25,7 +27,46 @@ body:not(section.exclude){
     scroll-behavior: smooth;
 }
 
+div.xtraNav{
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 50%;
+    left: 50%;
+    margin: 10px;
+    color: goldenrod;
+    
+    
+}
 
+div.xtraNav a {
+    text-decoration: none;
+    color:goldenrod;
+}
+div.xtraNav a :hover{
+    text-decoration: none;
+    animation-name: shift;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+@keyframes shift{
+    from{ font-size:1.17rem; color: goldenrod;}
+    to{ font-size: 1.18rem;color: gold;}
+}
+
+div.xtraNav a :visited{
+    text-decoration: none;
+    color: initial;
+}
 section.fixed{
     height: 350px;
     display: flex;
@@ -55,9 +96,13 @@ header.about p{
     height: 150px;
     z-index: 1;
 }
+header.about p:hover{
+    content: url(../media/logo7v3closed.png);
+}
+
 header.about h1{
-    color: #330055;
-    -webkit-text-stroke: white .5px;
+    color: goldenrod;
+    -webkit-text-stroke: black 1px;
     display: flex;
     align-items: center;
     align-content: center;
@@ -73,21 +118,24 @@ header.about h1{
 content{
     z-index: 2;
     background-color: #330055;
-    margin-bottom: 20px;
     scroll-behavior: smooth;
     position: absolute;
 
 }
 
 content p{
-    padding: 30px;
+    padding: 25px;
     background: black;
     color: whitesmoke;
     font-size: 1.5em;
     line-height: 45px;
     margin-left: 15vh;
     margin-right: 15vh;
-    border-radius: 20px;
-    border: white 1px solid;
+    border-radius: 15px;
+    border: goldenrod 2px solid;
+    font-family: overpass;
+    font-weight: normal;
+    line-height: 2em;
+    text-indent: 50px;
+    
 }
-
