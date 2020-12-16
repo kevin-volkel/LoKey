@@ -89,15 +89,26 @@ header{
     scroll-behavior: smooth;
 }
 
-header.about p{
+header.about p.after{
     grid-row: 2;
     grid-column: 3;
     content: url(../media/logo7v3.png);
-    height: 150px;
+    height: 200px;
     z-index: 1;
 }
-header.about p:hover{
+header.about p.after:hover{
     content: url(../media/logo7v3closed.png);
+}
+header.about p.before:hover{
+    content: url(../media/logo7v3closed.png);
+}
+
+header.about p.before{
+    grid-row: 2;
+    grid-column: 1;
+    content: url(../media/logo7v3.png);
+    height: 200px;
+    z-index: 1;
 }
 
 header.about h1{
