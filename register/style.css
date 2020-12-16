@@ -1,0 +1,64 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+        font-family: 'Overpass', sans-serif;
+        background-image: linear-gradient(to right bottom, rgba(245, 13, 245, 0.5),rgba(141, 29, 141, 0.767));
+
+}
+.heading-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.app-box{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .personal-info{
+    border: solid black 3px;
+} */
+fieldset{
+    border: solid 5px black;
+}
+legend{
+    display: block;
+    margin: auto;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.third-row{
+    /* display: flex;
+    width: 100%;
+    justify-content: space-evenly; */
+    margin-bottom: 50px;
+}
+.social{
+    margin-bottom: 50px;
+}
+.felony{
+        margin-bottom: 50px;
+
+}
+.resume{
+        margin-bottom: 50px;
+
+}
+button{
+    display: block;
+    margin: auto;
+}
