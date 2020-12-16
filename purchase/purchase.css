@@ -21,5 +21,51 @@
     text-align: center;
     justify-content: center;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 50px;
+}
+
+input,
+select{
+    width: 60%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-color: rgb(236, 27, 37);
+    margin-bottom: 1.5rem;
+    background-color: transparent;
+    color: black;
+    outline: none;
+}
+
+.cvv-details{
+    font-size: 15px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    outline: none;
+    background-image: linear-gradient(to right, rgba(211, 19, 211, 0.74), rgba(163, 39, 163, 0.774));
+    display: block;
+    margin: auto;
+    top: 85%;
+    left: 35%;
+}
+
+input:focus {
+    padding-bottom: 5px;
+    transition: all .3s ease-out;
+}
+
+::placeholder,select{
+    color: rgb(255, 255, 255);
+}
+option{
+    color: black;
+}
+
+input{
+    color: white;
 }
