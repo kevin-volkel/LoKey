@@ -40,27 +40,28 @@
         </ul>
     </nav>
 
-    <div class="sign-up">
+    <form action="../index.html" method="post">
         <div class="heading">
             <img src="../media/logo7v3.png" alt="">
         </div>
         <hr>
-        <div class="sign-up-section">
-            <input type="text" id='firstName' name='firstName' placeholder="First Name">
-            <br>
-            <input type="text" id='lastName' name='lastName' placeholder="Last Name">
-            <br>
-            <input type="email" id='email' name='email' placeholder="Email">
-            <br>
-            <input type="password" id='password' name='password' placeholder="Password">
-        </div>
-        <button>Register</button>
-    </div>
+        <section>
+            <div class="name">
+                <input class="input" type="text" id='firstName' name='firstName' placeholder="First Name">
+                <input class="input" type="text" id='lastName' name='lastName' placeholder="Last Name">
+            </div>
+            <input class="input" type="email" id='email' name='email' placeholder="Email">
+            <input class="input" type="password" id='password' name='password' placeholder="Password">
+            <input class="input" type="password" id='confirmPassword' name='password' placeholder="Confirm Password">
+        </section>
+        <button type="submit">Register</button>
+    </form>
 
 
 
 
     <script src="../nav.js"></script>
+    <script src="register.js"></script>
 </body>
 
 </html>
