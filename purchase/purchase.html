@@ -11,14 +11,39 @@
         <meta property='og:decription ' content=' '>
         <title>Lokey</title>
         <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap" rel="stylesheet">
-        <link rel='stylesheet ' href='purchase.css'>
         <link rel="stylesheet" href="../template.css">
+        <link rel='stylesheet ' href='purchase.css'>
         <link rel="shortcut icon" href="../media/logo7v3.png" type="image/x-icon">
 </head>
 
 <body>
     <div class="contan">
-        <p class="box"><input type="text"></p>
+        <form class="box">
+            <h4 class="title">Credit Card Detail</h4><hr>
+            
+            <input type="text" class="card-number" placeholder="Card Number"><br>
+            <select name="Month">
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+            </select>
+            <input type="text" class="year" placeholder="Year"><br>
+
+            <input class="cvv" type="text" placeholder="CVV">
+        <div class="cvv-details">
+        <p>3 or 4 digits usually found <br> on the signature strip</p>
+
+        <button type="submit" class="proceed-btn" onclick="purchase()"><a href="contract.html">Proceed</a></button>
+            </div>
 
 
 
@@ -48,6 +73,7 @@
     
     
         <script src="../nav.js"></script>
+        <script src="purchase.js"></script>
     </body>
     
     </html>

@@ -1,3 +1,4 @@
+"use strict";
 
 const navBar = document.getElementById("nav-button");
 

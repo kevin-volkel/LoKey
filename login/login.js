@@ -1,3 +1,4 @@
+"use strict";
 
 
 let checkLogin = () => {
@@ -8,6 +9,10 @@ let checkLogin = () => {
     console.log(email)
     console.log(password)
     
+    if(email == "haha" && password == "haha"){
+        document.location.href = "https://www.youtube.com/watch?v=0YHx4tMk0Vs"
+    }
+
     if(password == "admin"){
         for(let i = 0; i < correctEmails.length; i++){
             if(email == correctEmails[i]){
@@ -40,5 +45,5 @@ document.getElementById("email").addEventListener("keyup", function(event) {
 });
 
 let signup = () => {
-    document.location.href = "../register/register.html"
+    document.location.href = "../application/application.html"
 }
