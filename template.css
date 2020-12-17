@@ -96,11 +96,7 @@ body {
     box-shadow: 2px 0 2px rgba(0, 0, 0, 0.2);
     /* hide navbar */
     transform: translateX(-100%);
-<<<<<<< HEAD
-    transition: all .5s ease;
-=======
     transition: all 0.5s ease;
->>>>>>> a948f7774c6b35e30c7613596a709c655fcf48b5
 }
 
 .showNav {
