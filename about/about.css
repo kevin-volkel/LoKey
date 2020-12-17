@@ -103,10 +103,10 @@ header.about p.before{
     height: 150px;
     z-index: 1;
 }
-header.about p.after:hover{
+header.about p.after:active{
     content: url(../media/logo7v3closed.png);
 }
-header.about p.before:hover{
+header.about p.before:active{
     content: url(../media/logo7v3closed.png);
 }
 
