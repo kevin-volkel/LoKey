@@ -188,7 +188,7 @@ p{
     height: 5px;
     background-color: white;
     border-radius: 8px;
-    transition: all .5s ease-in-out;
+    transition: all .25s ease-in-out;
 }
 .nav-button_bar::before{
     transform: translateY(-12px);
@@ -220,7 +220,7 @@ p{
     left: 0;
     background-color: rgba(155, 33, 192, 0.801);
     z-index: 2;
-    width: 10%;
+    width: 15vw;
     box-shadow: 2px 0 2px rgba(0, 0, 0, 0.2);
     /* hide navbar */
     transform: translateX(-100%);
@@ -241,7 +241,7 @@ p{
 
 .nav-link {
     display: block;
-    font-size: 2rem;
+    font-size: 2vw;
     padding: 0.25rem 1rem;
     text-transform: uppercase;
     letter-spacing: 3px;
