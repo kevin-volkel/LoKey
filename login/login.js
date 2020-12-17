@@ -40,5 +40,5 @@ document.getElementById("email").addEventListener("keyup", function(event) {
 });
 
 let signup = () => {
-    document.location.href = "../register/register.html"
+    document.location.href = "../register/index.html"
 }
