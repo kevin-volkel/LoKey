@@ -26,6 +26,13 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+p{
+    text-align: center;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    margin-top: 1rem;
+}
+
 .logo-box {
     display: flex;
     width: 100%;
@@ -58,7 +65,7 @@ body {
     display: flex;
     z-index: 3;
     cursor: pointer;
-    transition: all .5s ease-in-out;
+    transition: all .25s ease-in-out;
 }
 .nav-button_bar{
     content: '';
@@ -67,7 +74,7 @@ body {
     height: 5px;
     background-color: white;
     border-radius: 8px;
-    transition: all .5s ease-in-out;
+    transition: all .25s ease-in-out;
     z-index: 3;
 
 }
@@ -79,7 +86,7 @@ body {
     height: 5px;
     background-color: white;
     border-radius: 8px;
-    transition: all .5s ease-in-out;
+    transition: all .25s ease-in-out;
 }
 .nav-button_bar::before{
     transform: translateY(-12px);
@@ -114,7 +121,7 @@ body {
     box-shadow: 2px 0 2px rgba(0, 0, 0, 0.2);
     /* hide navbar */
     transform: translateX(-100%);
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 
 .showNav {
@@ -148,19 +155,21 @@ body {
     color: white;
 }
 
+
+.buttonWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 button {
     width: 200px;
     height: 50px;
     border-radius: 75px;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -60%);
     background-image: linear-gradient(to top, rgba(207, 21, 224, 0.712), rgba(247, 216, 40, 0.699));
     font-size: large;
     color: black;
     outline: none;
-    margin-top: 30px;
+    margin: 10rem auto;
 }
 
 .nav-logo-box {
