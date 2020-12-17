@@ -1,0 +1,43 @@
+html, body{
+    background: rgb(54, 0, 54);
+    overflow: hidden;
+}
+
+form{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 5rem;
+}
+h1{
+    text-align: center;
+}
+
+p, h1{
+    color: white;
+}
+
+p{
+    font-size: 2rem;
+}
+
+button{
+    color: white;
+    margin: 1rem 39vw;
+    width: 10rem;
+    height: 3rem;
+    background: url(../media/MetalPurlpe.jpg);
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid goldenrod;
+    color: gold;
+    font-size: 1.25rem;
+}
+input:focus{
+    border-bottom: 2px solid purple;
+    outline: none; 
+    color: white;
+}

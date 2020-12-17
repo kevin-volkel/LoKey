@@ -45,6 +45,9 @@ p{
 .logo {
     height: 8rem;
 }
+.logo:hover{
+    content: url(media/logo7v3closed.png)
+}
 
 body {
     font-family: 'Overpass', sans-serif;
