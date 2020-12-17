@@ -147,5 +147,7 @@ content p{
     font-weight: normal;
     line-height: 2em;
     text-indent: 50px;
-    
+}
+p{
+    margin-bottom: 20px;
 }
